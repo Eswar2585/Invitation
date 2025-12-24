@@ -1,4 +1,4 @@
- document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
             // --- Animation Sequence ---
             const bowContainer = document.getElementById('bowContainer');
             const ribbonVertical = document.getElementById('ribbonVertical');
@@ -35,7 +35,7 @@
             }, 3800);
 
             // --- Countdown Logic ---
-            const eventDate = new Date(2026, 1, 1, 10, 30, 0).getTime(); // Feb 1, 2026 (Month is 0-indexed: 1 = Feb)
+            const eventDate = new Date(2026, 0, 21, 17, 0, 0).getTime(); // Jan 21, 2026 5:00 PM
             const countdownContainer = document.getElementById('countdownContainer');
 
             function updateCountdown() {
